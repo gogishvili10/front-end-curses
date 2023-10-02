@@ -1,0 +1,46 @@
+div{
+    background-color: black;
+}
+
+#firstDiv{
+    background-color: yellow;
+}
+
+.redElements{
+    background-color: rgba(255, 0, 0 , 1);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 1.5em;
+}
+
+
+.tallElemnts{
+    height: 200px;
+    width: 100vw;
+}
+
+
+.redElements, #firstDiv{
+    color: blue;
+}
+
+#separatDiv .subChild{
+    color: green;
+}
+.squareElement{
+    width: 50%;
+    height: 200px;
+    background-color: purple;
+    border-color: aqua;
+    border: 1px solid aqua; 
+}
+
+#sizeChild{
+    width: 20%;
+    max-width: 200px;
+    background-color: blue;
+}
+#secondSizeChild{
+    height: inherit;
+}
